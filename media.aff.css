@@ -1,3 +1,16 @@
+@media (max-width: 1920px)
+{
+    .home_page_images
+    {
+        height: 965px;
+        background-size: cover;
+    }
+    .home_page_images_opacity
+    {
+        height: 965px;
+        background-size: cover;
+    }
+}
 @media (max-width: 1366px)
 {
     .home_page_images
@@ -11,24 +24,17 @@
         height: 654px;
     }
 }
-/* @media (max-width: 1920px)
+@media (max-width: 1280px)
 {
     .home_page_images
     {
-        width: 1920px;
+        width: 100%;
+        height: 654px;
     }
     .home_page_images_opacity
     {
-        width: 1920px;
-    }
-} */
-
-@media (max-width: 1280px)
-{
-    .home_page_arrow
-    {
-        top: 69%;
-        left: 49%;
+        width: 100%;
+        height: 654px;
     }
     .menu
     {
@@ -36,14 +42,27 @@
         display: flex;
         justify-content: space-evenly;
     }
+    .button
+    {
+        width: 140px;
+        height: 50px;
+    }
+    .button_en
+    {
+        width: 45px;
+        height: 25px;
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    .button_login
+    {
+        width: 60px;
+        height: 25px;
+        font-size: 14px;
+    }
     .aboutUs_text , .footer_body
     {
         width: 95%;
-    }
-    .footer_body , .footer_info
-    {
-        width: 95%;
-        height: 250px;
     }
     .footer_info p
     {
@@ -57,6 +76,21 @@
 }
 @media (max-width: 1000px)
 {
+    .home_page_images
+    {
+        width: 100%;
+        height: 640px;
+    }
+    .home_page_images_opacity
+    {
+        width: 100%;
+    }
+    .home_page_block_for_text
+    {
+        display: grid;
+        grid-template-columns: 500px;
+        grid-template-rows: 1fr 243px 1fr;
+    }
     .menu
     {
         width: 80%;
@@ -77,10 +111,6 @@
     {
         width: 140px;
         margin-left: 30px;
-    }
-    .publisher_button
-    {
-        flex-shrink: 2;
     }
     .aboutUs_text , .footer_body
     {
@@ -103,6 +133,11 @@
 }
 @media (max-width: 828px) and (orientation: portrait)
 {
+    .home_page_images
+    {
+        width: 100%;
+        height: 640px;
+    }
     .menu
     {
         width: 60%;
@@ -119,19 +154,20 @@
         width: 120px;
         margin-left: 30px;
     }
-    .home_page_arrow
-    {
-        top: 30%;
-        left: 49%;
-    }
     .home_page_images
     {
         width: 100%;
         justify-content: center;
     }
-    .home_page_text
+    .home_page_images_opacity
     {
-        width: 75%;
+        width: 100%;
+    }
+    .home_page_block_for_text
+    {
+        display: grid;
+        grid-template-columns: 450px;
+        grid-template-rows: 1fr 243px 1fr;
     }
     .home_page_button
     {
@@ -140,42 +176,22 @@
     .publisher_conteiner , .advertiser_conteiner
     {
         width: 100%;
-        height: 1300px;
+        height: 1100px;
+        padding: 30px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center; 
+        justify-content: flex-start;
+        align-items: center;  
     }
-    .publisher , .advertiser
+    .publisher_conteiner >* , .advertiser_conteiner >*
     {
-        width: 95%;
-        height: 1300px;
-    }
-    .body_line1, .body_line2
-    {
-        width: 95%;
-        height: 650px;
-        flex-wrap: wrap;
-    }
-    .publisher_heading , .advertiser_heading , .aboutUs_heading
-    {
-        width: 100%;
-    }
-    .publisher_body_block , .advertiser_body_block 
-    {
-        width: 75%;
-        height: 147px;
-        justify-content: center;
-    }
-    .publisher_button , .advertiser_button
-    {
-        width: 75%;
+        text-align: center;
     }
     .aboutUs_body , .aboutUs_text
     {
         width: 95%;
     }
-    .footer_body , .footer_info
+    .footer_info , .footer_body 
     {
         width: 95%;
         height: 250px;
@@ -202,7 +218,8 @@
     }
     .menu
     {
-        width: 100%;
+        width: 95%;
+        justify-content: space-between;
     }
     .logo
     {
@@ -214,10 +231,32 @@
     }
     .hidden_novigation
     {
-        width: 280px;
+        width: 60px;
         height: 60px;
         display: flex;
         justify-content: flex-end;
         align-items: center;
+    }
+    .hidden_novigation:hover
+    {
+        cursor: pointer;
+    }
+    .home_page_images_opacity
+    {
+        width: 100%;
+        height: 654px;
+        background-color: rgba(5, 5, 5,0.7);
+    }
+    .home_page_block_for_text
+    {
+        display: grid;
+        grid-template-columns: 350px;
+        grid-template-rows: 1fr 243px 1fr;
+    }
+    .publisher_conteiner , .advertiser_conteiner
+    {
+        width: 100%;
+        height: 1250px;
+        padding: 30px;
     }
 }
