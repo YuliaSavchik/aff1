@@ -1,0 +1,321 @@
+@media (max-width: 1920px)
+{
+    #home_page_images
+    {
+        height: 965px;
+        background-size: cover;
+    }
+    .home_page_images_opacity
+    {
+        height: 965px;
+        background-size: cover;
+    }
+}
+@media (max-width: 1366px)
+{
+    #home_page_images
+    {
+        width: 100%;
+        height: 654px;
+    }
+    .home_page_images_opacity
+    {
+        width: 100%;
+        height: 654px;
+    }
+}
+@media (max-width: 1225px)
+{
+    #home_page_images
+    {
+        width: 100%;
+        height: 654px;
+    }
+    .home_page_images_opacity
+    {
+        width: 100%;
+        height: 654px;
+    }
+    .menu
+    {
+        width: 87%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .button
+    {
+        width: 150px;
+        height: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .button_en
+    {
+        width: 45px;
+        height: 25px;
+        font-size: 14px;
+    }
+    .button_login
+    {
+        width: 60px;
+        height: 25px;
+        font-size: 14px;
+    }
+    .offers_container
+    {
+        width: 95%;
+        padding: 90px 30px 0;
+    }
+    .offers_block_slides
+    {
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(4, 220px);
+        grid-template-rows: 343px;
+        grid-gap: 17px;
+    }
+    .about_us_text , .footer_body 
+    {
+        width: 95%;
+    }
+    .footer_info p
+    {
+        width: 95%;
+    }
+    .footer_images
+    {
+        width: 550px;
+        height: 350px;
+    }
+}
+@media (max-width: 1070px)
+{
+    #home_page_images
+    {
+        width: 100%;
+        height: 640px;
+    }
+    .home_page_images_opacity
+    {
+        width: 100%;
+    }
+    .home_page_block_for_text
+    {
+        display: grid;
+        grid-template-columns: 500px;
+        grid-template-rows: 1.15fr 165px 0.85fr;
+    }
+    .menu
+    {
+        width: 83%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .logo
+    {
+        width: 85px;
+        height: 50px;
+    }
+    .navigation
+    {
+        width: 85%;
+    }
+    .button 
+    {
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .button_en
+    {
+        width: 35px;
+        height: 25px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    .button_login
+    {
+        width: 50px;
+        height: 25px;
+        font-size: 12px;
+    }
+    .offers_block_slides
+    {
+        padding-right: 20px;
+        display: grid;
+        grid-template-columns: repeat(4, 170px);
+        grid-template-rows: 293px;
+        grid-gap: 14px;
+    }
+    .slides_front_side , .slides_back_side
+    {
+        width: 170px;
+        height: 293px;
+    }
+    .about_us_text , .footer_body
+    {
+        width: 80%;
+    }
+    .footer_body , .footer_info
+    {
+        width: 95%;
+        height: 250px;
+    }
+    .footer_info p
+    {
+        width: 95%;
+    }
+    .footer_images
+    {
+        width: 550px;
+        height: 350px;
+    }
+}
+@media (max-width: 828px) and (orientation: portrait)
+{
+    #home_page_images
+    {
+        width: 100%;
+        height: 640px;
+    }
+    .menu
+    {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+    }
+    .logo
+    {
+        width: 70px;
+        height: 35px;
+    }
+    .button 
+    {
+        width: 140px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .home_page_images
+    {
+        width: 100%;
+        justify-content: center;
+    }
+    .home_page_images_opacity
+    {
+        width: 100%;
+    }
+    .home_page_block_for_text
+    {
+        display: grid;
+        grid-template-columns: 450px;
+        grid-template-rows: 1.15fr 165px 0.85fr;
+    }
+    .home_page_button
+    {
+        width: 95%;
+    }
+    #publisher_container , #advertiser_container , #offers_container
+    {
+        width: 100%;
+        height: 1100px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;  
+    }
+    #publisher_container >* , #advertiser_container >* , #offers_container >*
+    {
+        text-align: center;
+    }
+    .offers_block_slides
+    {
+        padding-right: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 170px);
+        grid-template-rows: 293px 293px;
+        grid-gap: 15px;
+    }
+    .about_us_body , .about_us_text
+    {
+        width: 95%;
+    }
+    .footer_info , .footer_body 
+    {
+        width: 95%;
+        height: 250px;
+    }
+    .footer_info p
+    {
+        width: 95%;
+    }
+    .footer_images
+    {
+        width: 0;
+        height: 0;
+    }
+}
+@media (max-width: 590px) and (orientation: portrait)
+{
+    .navigation , .navigation_white
+    {
+        display: none;
+    }
+    .button , .button_white
+    {
+        display: none;
+    }
+    .menu
+    {
+        width: 95%;
+        justify-content: space-between;
+    }
+    .hidden_navigation , .hidden_navigation_white
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo
+    {
+        width: 90px;
+        height: 45px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .hidden_navigation
+    {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .hidden_navigation:hover , .hidden_navigation_white:hover
+    {
+        cursor: pointer;
+    }
+    .home_page_images_opacity
+    {
+        width: 100%;
+        height: 654px;
+        background-color: rgba(5, 5, 5,0.7);
+    }
+    .home_page_block_for_text
+    {
+        display: grid;
+        grid-template-columns: 350px;
+        grid-template-rows: 1.15fr 165px 0.85fr;
+    }
+    #publisher_container , #advertiser_container
+    {
+        width: 100%;
+        height: 1250px;
+        padding: 30px;
+    }
+}

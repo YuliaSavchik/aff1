@@ -6,165 +6,238 @@
     <link rel="shortcut icon" href="./images/aff1_logo_icon.png" type="images/png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./aff1.css">
-    <link rel="stylesheet" href="./media.aff.css">
+    <link rel="stylesheet" href="./styles/aff1.css">
+    <link rel="stylesheet" href="./styles/media.aff.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aff1</title>
 </head>
 <body>
     <div class="header_menu">
         <div class="menu">
-            <div class="logo"><img class="logo" src="./images/aff1_logo_white.png"></div>
-            <div class="novigation">
-                <a class="link_menu" href="#">Offer</a>
-                <a class="link_menu" href="#">Publisher</a>
-                <a class="link_menu" href="#">Advertiser</a>
-                <a class="link_menu" href="#">About</a>
+            <div class="logoInMenu">
+                <a class="logo_home" href="#home_page_images"><img class="logo" src="./images/aff1_logo_white.png"></a>
+                <a class="logo_home_black" href="#home_page_images"><img class="logo_black" src="./images/aff1_logo_black.png"></a>
+            </div>
+            <div class="navigation">
+                <a class="link_menu" href="#offers_container">Offer</a>
+                <a class="link_menu" href="#publisher_container">Publisher</a>
+                <a class="link_menu" href="#advertiser_container">Advertiser</a>
+                <a class="link_menu" href="#about_us_container">About</a>
             </div>
             <div class="button">
                 <button class="button_en">EN</button>
                 <button class="button_login">Log in</button>
             </div>
-            <div class="hidden_novigation">
-                <i class="fas fa-bars"></i>
+            <div class="hidden_navigation">
+                <i class="fas fa-bars icon_hiden"></i>
             </div>
         </div>
     </div>
-    <div class="home_page">
-        <div class="home_page_images">
-            <div class="home_page_images_opacity">
-                <div class="home_page_text">
+    <div class="header_menu_white">
+        <div class="menu_white">
+            <div class="logo_in_menu_white">
+                <a class="logo_home_black" href="#home_page_images"><img class="logo_black" src="./images/aff1_logo_black.png"></a>
+            </div>
+            <div class="navigation_white">
+                <a class="link_menu_white" href="#offers_container">Offer</a>
+                <a class="link_menu_white" href="#publisher_container">Publisher</a>
+                <a class="link_menu_white" href="#advertiser_container">Advertiser</a>
+                <a class="link_menu_white" href="#about_us_container">About</a>
+            </div>
+            <div class="button_white">
+                <button class="button_en_white">EN</button>
+                <button class="button_login_white">Log in</button>
+            </div>
+            <div class="hidden_navigation_white">
+                <i class="fas fa-bars icon_hiden"></i>
+            </div>
+        </div>
+    </div>
+    
+    <div id="home_page_images">
+        <div class="home_page_images_opacity">
+            <div class="home_page_block_for_text">
+                <div class="home_page_title">
                     <p class="home_page_text_title">Global affiliate network</p>
-                    <p class="home_page_text_paragraph">Boosting your marketing using 
-                        the most innovative technologies in the area of Affiliate Marketing Networking</p>
+                </div>
+                <div class="home_page_text">
+                    <p class="home_page_text_paragraph">Boosting your marketing using the most innovative technologies in the area of Affiliate Marketing Networking</p>
                     <div class="home_page_button">
                         <button class="home_page_button_signUp">Sign up</button>
                         <button class="home_page_button_logIn">Log in</button>
                     </div> 
                 </div>
+                <div class="home_page_arrow">
+                    <a class="home_page_images_arrow" href="#publisher_container"><img src="./images/arrow_down_scroll.png"></a>
+                </div>
             </div>
         </div>
-        <img class="home_page_arrow" src="./images/arrow_down_scroll.png" alt="arrow"> 
     </div>
-
-    <div class="publisher_conteiner">
-        <div class="publisher_heading">Publisher</div>
-        <hr>
-        <div class="publisher body_line1">
-            <div class="publisher_body_block one">
-                <img src="./images/budget.png" alt="budget">
-                <h3>Exclusive offers</h3>
-                <p>In our company we value every partner. 
-                    Your personal affiliate manager advice you a lot of exclusive offers.</p>
+     <div id="offers_container">
+        <div class="offers_block_heading">
+            <h2>OFFERS</h2>
+            <hr>
+        </div>
+        <div class="offers_block_slides">
+            <div class="offers_slides">
+                <div class="slides_front_side ecommerce">
+                    <img src="./images/online_shop.png" alt="online_shop">
+                    <h3>Ecommerce</h3>
+                    <p>Cash on delivery, trials & online payments</p>
+                </div>
+                <div class="slides_back_side ecommerce">
+                    <p>Cash on delivery, trials & online payments</p>
+                    <p>Exclusive E-commerce opportunities. We offer COD, Trials and other verticals...</p>
+                </div> 
             </div>
-            <div class="publisher_body_block two">
-                <img src="./images/digital_marketing.png" alt="digital marketing">
-                <h3>Direct advertisers</h3>
-                <p>Our own offers will give you best CR on the market. 
-                    Find out more from your personal manager.</p>
+            <div class="offers_slides">
+                <div class="slides_front_side gambling">
+                    <img src="./images/poker_chip.png" alt="poker_chip">
+                    <h3>Gambling</h3>
+                    <p>All knows and absolutely new casinos</p>
+                </div>
+                <div class="slides_back_side gambling">
+                    <p>All knows and absolutely new casinos</p>
+                    <p>New and time-tested gambling offers with high CR!</p>
+                </div>
             </div>
-            <div class="publisher_body_block three">
-                <img src="./images/copyright.png" alt="copyright">
-                <h3>Author's landing pages</h3>
-                <p>Our own development department will help you. 
-                    We meet the requests for any creatives.</p>
+            <div class="offers_slides">
+                <div class="slides_front_side finance">
+                    <img src="./images/money.png" alt="money">
+                    <h3>Finance</h3>
+                    <p>MFO & Banks</p>
+                </div>
+                <div class="slides_back_side finance">
+                    <p>MFO & Banks</p>
+                    <p>Direct financial offers in many countries around the world.</p>
+                </div>
+            </div>
+            <div class="offers_slides">
+                <div class="slides_front_side mobile">
+                    <img src="./images/promo_cards_mobile.png" alt="promo_cards_mobile">
+                    <h3>Mobile</h3>
+                    <p>From 1-click to apps</p>
+                </div>
+                <div class="slides_back_side mobile">
+                    <p>From 1-click to apps</p>
+                    <p>Mobile installs, application subscriptions, pin submits - we can convert all your mobile traffic!</p>
+                </div>
             </div>
         </div>
-        <div class="publisher body_line2">
-            <div class="publisher_body_block four">
-                <img src="./images/inhouse_platform.png" alt="inhouse_platform">
-                <h3>In-house platform</h3>
-                <p>We will tell more about your leads than others. 
-                    Always stable and transparent system operation.</p>
-            </div>
-            <div class="publisher_body_block five">
-                <img src="./images/mobile_payment.png" alt="mobile_payment">
-                <h3>Payments on request</h3>
-                <p>Each affiliate receives payment on request. 
-                    It's simple: made payment request - got money.</p>
-            </div>
-            <div class="publisher_body_block six">
-                <img src="./images/message.png" alt="message">
-                <h3>Personal Support</h3>
-                <p>Got a question? Support always available.</p>
-            </div>
+        <div class="offers_block_text">
+            Our affiliate network presents offers for any traffic. Sign up and you will be contacted by a personal manager who will help you choose 
+            the most suitable offer of the 500+ represented from us. Our private and exclusive offers have the highest conversion.
         </div>
-        <div class="publisher_button">
+     </div> 
+    <div id="publisher_container">
+        <div class="publisher_block_heading">
+            <h2>PUBLISHER</h2>
+            <hr>
+        </div>
+        <div class="publisher_block_one">
+            <img src="./images/budget.png" alt="budget">
+            <h3>Exclusive offers</h3>
+            <p>In our company we value every partner. Your personal affiliate manager advice you a lot of exclusive offers.</p>
+        </div>
+        <div class="publisher_block_two">
+            <img src="./images/digital_marketing.png" alt="digital">
+            <h3>Direct advertisers</h3>
+            <p>Our own offers will give you best CR on the market. Find out more from your personal manager.</p>
+        </div>
+        <div class="publisher_block_three">
+            <img src="./images/copyright.png" alt="copyright">
+            <h3>Author's landing pages</h3>
+            <p>Our own development department will help you. We meet the requests for any creatives.</p>
+        </div>
+        <div class="publisher_block_four">
+            <img src="./images/inhouse_platform.png" alt="inhouse_platform">
+            <h3>In-house platform</h3>
+            <p>We will tell more about your leads than others. Always stable and transparent system operation.</p>
+        </div>
+        <div class="publisher_block_five">
+            <img src="./images/mobile_payment.png" alt="mobile_payment">
+            <h3>Payments on request</h3>
+            <p>Each affiliate receives payment on request. It's simple: made payment request - got money.</p>
+        </div>
+        <div class="publisher_block_six">
+            <img src="./images/message.png" alt="message">
+            <h3>Personal Support</h3>
+            <p>Got a question? Support always available.</p>
+        </div>
+        <div class="publisher_block_button">
             <button class="buttun_publisher">SIGN UP</button>
         </div>
     </div>
-
-    <div class="advertiser_conteiner">
-        <div class="advertiser_heading">ADVERTISER</div>
-        <hr>
-        <div class="advertiser body_line1">
-            <div class="advertiser_body_block one">
-                <img src="./images/network.png" alt="network">
-                <h3>Individual approach</h3>
-                <p>Feel the care from our managers. Your personal manager can be your friend.</p>
-            </div>
-            <div class="advertiser_body_block two">
-                <img src="./images/analytics.png" alt="analytics">
-                <h3>Software solutions</h3>
-                <p>In-house platform with custom solutions. This allows us to do the impossible for you.</p>
-            </div>
-            <div class="advertiser_body_block three">
-                <img src="./images/analytics_2.png" alt="analytics_2">
-                <h3>Anti-fraud software</h3>
-                <p>100% anti-fraud protection. We check every conversion on fraud.</p>
-            </div>
+    
+    <div id="advertiser_container">
+        <div class="advertisre_block_heading">
+            <h2>ADVERTISER</h2>
+            <hr>
         </div>
-        <div class="advertiser body_line2">
-            <div class="advertiser_body_block four">
-                <img src="./images/communication.png" alt="communication">
-                <h3>Traffic from worldwild</h3>
-                <p>In our partner network publishers from many countries around the world have registered. Traffic for your site from any country.</p>
-            </div>
-            <div class="advertiser_body_block five">
-                <img src="./images/target.png" alt="target.">
-                <h3>To be result-oriented</h3>
-                <p>You pay only for the necessary actions committed by users on the site. No risks!</p>
-            </div>
-            <div class="advertiser_body_block six">
-                <img src="./images/mission.png" alt="mission">
-                <h3>Profitable terms</h3>
-                <p>Our managers will offer the most favorable conditions on the market. Just contact us.</p>
-            </div>
+        <div class="advertisre_block_one">
+            <img src="./images/network.png" alt="network">
+            <h3>Individual approach</h3>
+            <p>Feel the care from our managers. Your personal manager can be your friend.</p>
         </div>
-        <div class="advertiser_button">
+        <div class="advertisre_block_two">
+            <img src="./images/analytics.png" alt="analytics">
+            <h3>Software solutions</h3>
+            <p>In-house platform with custom solutions. This allows us to do the impossible for you.</p>
+        </div>
+        <div class="advertisre_block_three">
+            <img src="./images/analytics_2.png" alt="analytics_2">
+            <h3>Anti-fraud software</h3>
+            <p>100% anti-fraud protection. We check every conversion on fraud.</p>
+        </div>
+        <div class="advertisre_block_four">
+            <img src="./images/communication.png" alt="communication">
+            <h3>Traffic from worldwild</h3>
+            <p>In our partner network publishers from many countries around the world have registered. Traffic for your site from any country.</p>
+        </div>
+        <div class="advertisre_block_five">
+            <img src="./images/target.png" alt="target.">
+            <h3>To be result-oriented</h3>
+            <p>You pay only for the necessary actions committed by users on the site. No risks!</p>
+        </div>
+        <div class="advertisre_block_six">
+            <img src="./images/mission.png" alt="mission">
+            <h3>Profitable terms</h3>
+            <p>Our managers will offer the most favorable conditions on the market. Just contact us.</p>
+        </div>
+        <div class="advertisre_block_button">
             <button class="buttun_advertiser">APPLICATION</button>
         </div>
     </div>
 
-    <div class="aboutUs_conteiner">
-        <div class="aboutUs_body">
-            <div class="aboutUs_heading">ABOUT US</div>
+    <div id="about_us_container">
+        <div class="about_us_body">
+            <div class="about_us_heading">ABOUT US</div>
             <hr>
-            <div class="aboutUs_text">
-                <p class="text_aboutUs">Our goal is to provide the best service for customers all over the world. The income of the advertisers and webmasters from many countries of the world grows with us. Join us.</p>
+            <div class="about_us_text">
+                <p class="text_about_us">Our goal is to provide the best service for customers all over the world. The income of the advertisers and webmasters from many countries of the world grows with us. Join us.</p>
             </div>
         </div>
     </div>
 
-    <div class="footer_conteiner">
+    <div class="footer_container">
         <div class="footer_body">
             <div class="footer_info">
                 <img class="footer_logo" src="./images/aff1_logo_black.png" alt="logo">
                 <p class="footer_partnershir">Partnership - bd@aff1.com</p>
-                <p class="footer_technical-support">Technical support - support@aff1.com</p>
+                <p class="footer_technical_support">Technical support - support@aff1.com</p>
                 <div class="footer_icon">
                     <div class="icon insta">
-                        <a class="icon insta" href="#">
+                        <a class="icon insta" href="https://www.instagram.com" target="_blank">
                             <i class="fab fa-instagram"></i>
                         </a>
                     </div>
                     <div class="icon linked">
-                        <a class="icon linked" href="#">
+                        <a class="icon linked" href="https://www.linkedin.com" target="_blank">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
                     </div>
                     <div class="icon vk">
-                        <a class="icon vk" href="#">
+                        <a class="icon vk" href="https://vk.com/" target="_blank">
                             <i class="fab fa-vk"></i>
                         </a>
                     </div>
@@ -175,6 +248,8 @@
             </div>
             <img class="footer_images" src="./images/meeting.png" alt="meeting">
         </div>
-    </div>   
+    </div>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/white_header.js"></script>
 </body>
 </html>
