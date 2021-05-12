@@ -10,6 +10,18 @@
         height: 965px;
         background-size: cover;
     }
+    #offers_container
+    {
+        padding: 90px 400px 0;
+    }
+    .offers_block_slides
+    {
+        padding: 0 88px 0 88px;
+        display: grid;
+        grid-template-columns: repeat(4, 220px);
+        grid-template-rows: 343px;
+        grid-gap: 17px;
+    }
 }
 @media (max-width: 1366px)
 {
