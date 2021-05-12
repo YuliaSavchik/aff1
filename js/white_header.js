@@ -4,7 +4,7 @@ $(window).on('scroll' , function()
     {
         $('.link_menu').hover(function()
         {
-            $(this).toggleClass('link_menu_white')
+            $(this).toggleClass('link_menu_white');
         });
         $('.header_menu').css({'display' : 'none'});
         $('.header_menu_white').css({'display' : 'flex'});
@@ -13,13 +13,13 @@ $(window).on('scroll' , function()
     }
     else
     {
-        $('.link_menu_white').hover(function()
-        {
-            $(this).toggleClass('link_menu')
-        });
         $('.header_menu_white').css({'display' : 'none'});
         $('.header_menu').css({'display' : 'flex'});
         $('.logo_black').css({'display' : 'none'});
         $('.logo').css({'display' : 'flex'});
+        $('.link_menu').hover(function()
+        {
+            $(this).addClass('link_menu');
+        });
     }
 });
