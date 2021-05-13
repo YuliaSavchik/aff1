@@ -1,4 +1,4 @@
-@media (min-width: 1920px)
+@media (max-width: 1920px)
 {
     #home_page_images
     {
@@ -36,13 +36,13 @@
         width: 100%;
         height: 654px;
     }
-    .menu
+    .menu , .menu_white
     {
         width: 87%;
         display: flex;
         justify-content: space-evenly;
     }
-    .button
+    .button , .button_white
     {
         width: 150px;
         height: 50px;
@@ -50,13 +50,13 @@
         justify-content: space-evenly;
         align-items: center;
     }
-    .button_en
+    .button_en , .button_en_white
     {
         width: 45px;
         height: 25px;
         font-size: 14px;
     }
-    .button_login
+    .button_login , .button_login_white
     {
         width: 60px;
         height: 25px;
@@ -93,37 +93,37 @@
         grid-template-columns: 500px;
         grid-template-rows: 1.15fr 165px 0.85fr;
     }
-    .menu
+    .menu , .menu_white
     {
         width: 83%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
-    .logo
+    .logo , .logo_black
     {
         width: 85px;
         height: 50px;
     }
-    .navigation
+    .navigation , .navigation_white
     {
         width: 85%;
     }
-    .button 
+    .button , .button_white
     {
         width: 100px;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    .button_en
+    .button_en , .button_en_white
     {
         width: 35px;
         height: 25px;
         font-size: 12px;
         margin-right: 10px;
     }
-    .button_login
+    .button_login , .button_login_white
     {
         width: 50px;
         height: 25px;
@@ -170,18 +170,18 @@
         width: 100%;
         height: 640px;
     }
-    .menu
+    .menu , .menu_white
     {
         width: 60%;
         display: flex;
         justify-content: center;
     }
-    .logo
+    .logo , .logo_black
     {
         width: 70px;
         height: 35px;
     }
-    .button 
+    .button , .button_white
     {
         width: 140px;
         display: flex;
@@ -259,7 +259,7 @@
     {
         display: none;
     }
-    .menu
+    .menu, .menu_white
     {
         width: 95%;
         justify-content: space-between;
