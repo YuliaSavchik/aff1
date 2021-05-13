@@ -1,4 +1,4 @@
-@media (max-width: 1920px)
+@media (min-width: 1920px)
 {
     #home_page_images
     {
@@ -61,19 +61,6 @@
         width: 60px;
         height: 25px;
         font-size: 14px;
-    }
-    .offers_container
-    {
-        width: 95%;
-        padding: 90px 30px 0;
-    }
-    .offers_block_slides
-    {
-        padding: 0;
-        display: grid;
-        grid-template-columns: repeat(4, 220px);
-        grid-template-rows: 343px;
-        grid-gap: 17px;
     }
     .about_us_text , .footer_body 
     {
@@ -142,9 +129,11 @@
         height: 25px;
         font-size: 12px;
     }
+
     .offers_block_slides
     {
-        padding-right: 20px;
+        width: 722px;
+        height: 293px;
         display: grid;
         grid-template-columns: repeat(4, 170px);
         grid-template-rows: 293px;
@@ -234,7 +223,8 @@
     }
     .offers_block_slides
     {
-        padding-right: 20px;
+        width: 355px;
+        height: 602px;
         display: grid;
         grid-template-columns: repeat(2, 170px);
         grid-template-rows: 293px 293px;

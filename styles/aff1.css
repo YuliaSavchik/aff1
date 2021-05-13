@@ -9,6 +9,10 @@ body
     width: 100%;
     font-family: Roboto, sans-serif;
 }
+html 
+{
+    scroll-behavior: smooth;
+}
 .header_menu , .header_menu_white
 {
     width: 100%;
@@ -42,6 +46,7 @@ body
     display: none;
     width: 115px;
     height: 70px;
+    scroll-behavior: smooth;
 }
 .navigation , .navigation_white
 {
@@ -275,7 +280,7 @@ body
     grid-gap: 40px;
     text-align: center;
 }
-.offers_block_heading , .offers_block_text
+.offers_block_heading , .offers_block_text , .container_for_slides
 {
     display: grid;
     justify-items: center;
@@ -283,7 +288,8 @@ body
 }
 .offers_block_slides
 {
-    padding: 0 113px 0 113px;
+    width: 932px;
+    height: 343px;
     display: grid;
     grid-template-columns: repeat(4, 220px);
     grid-template-rows: 343px;
